@@ -1,0 +1,29 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+.container{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+h1{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 46px;
+    margin-bottom: 25px;
+}
+.photo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.img{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+.img:hover{
+    border-color: transparent;
+}
